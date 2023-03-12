@@ -3,7 +3,7 @@ import os
 host = "127.0.0.1"
 port = 80
 static_dir = None
-compress_dir = None
+converted_dir = None
 cache_dir = os.path.join(os.getcwd(),"cache.sql")
 js_only = False
 delete_unlisted = True
@@ -37,13 +37,13 @@ engine = {
 
 def start():
     if not static_dir: raise Exception('"static_dir" is required!')
-    if not compress_dir: raise Exception('"compress_dir" is required!')
+    if not converted_dir: raise Exception('"converted_dir" is required!')
     from JSJumble import server
     server.start(
         host=host,
         port=port,
         static_dir=static_dir,
-        compress_dir=compress_dir,
+        converted_dir=converted_dir,
         cache_dir=cache_dir,
         js_only=js_only,
         delete_unlisted=delete_unlisted,

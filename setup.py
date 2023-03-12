@@ -16,7 +16,7 @@ classifiers = [
 
 setup(
   name='JSJumble',
-  version='1.0.3',
+  version='1.0.4',
   description='Tool for obfuscating, compressing Javascript, and collecting static files.',
   long_description=open('pypi.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
   long_description_content_type='text/markdown',

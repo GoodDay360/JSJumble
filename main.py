@@ -2,7 +2,7 @@ import os
 import JSJumble
 
 JSJumble.static_dir = r"C:\Users\Administrator\Documents\Microsoft Code\Python\JSJumble\static"
-JSJumble.compress_dir = r"C:\Users\Administrator\Documents\Microsoft Code\Python\JSJumble\compress"
+JSJumble.converted_dir = r"C:\Users\Administrator\Documents\Microsoft Code\Python\JSJumble\converted"
 JSJumble.cache_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)),"cache.sql")
 
 JSJumble.host = "127.0.0.1"
