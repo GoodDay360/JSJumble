@@ -1,3 +1,3 @@
 # JSJumble
-**Tool for obfuscate, compress Javascript, and collect static files.**  
+**Tool for obfuscating, compressing Javascript, and collecting static files.**  
 ### Check Github page for [Documentation](https://github.com/GoodDay360/JSJumble).
