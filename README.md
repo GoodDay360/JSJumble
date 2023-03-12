@@ -48,7 +48,7 @@ JSJumble.delete_unlisted = True
 ```
 
 - **[ Optional ]** Engine options that required to start converting. `Default: Listed below`
-- You can find more additional options in this [Github Repo](https://github.com/javascript-obfuscator/javascript-obfuscator#javascript-obfuscator-options){:target="\_blank"}
+- You can find more additional options in this [Github Repo](https://github.com/javascript-obfuscator/javascript-obfuscator#javascript-obfuscator-options)
 ```python
 JSJumble.engine = {
     "compact": True,
@@ -81,7 +81,7 @@ JSJumble.engine = {
 ```
 
 - **[ Request ]** And lastly start the engine.
-- You can access the engine by open up browser and go to the IP and Port that you specified. `Default: 127.0.0.:80`
+- You can access the engine by open up browser and go to the IP and Port that you specified. `Default: 127.0.0.1:80`
 ```python
 JSJumble.start()
 ```
