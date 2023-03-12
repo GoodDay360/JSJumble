@@ -209,7 +209,7 @@ def delete_unlist():
         return jsonify({"result": "ignored_compress"})
 
 def start(host,port,static_dir,compress_dir,cache_dir,delete_unlisted, js_only, engine):
-    global STATIC_DIR, STATIC_COMPRESSED_DIR, CACHE_CON, CACHE_CUR, DELETE_UNLISTED,JSONLY ,ENGINE
+    global STATIC_DIR, STATIC_COMPRESSED_DIR, CACHE_CON, CACHE_CUR, DELETE_UNLISTED,JSONLY, ENGINE
     
     STATIC_DIR = static_dir
     STATIC_COMPRESSED_DIR = compress_dir

@@ -1,8 +1,6 @@
 CHANGELOG.txt
 LICENSE
 MANIFEST.in
-README.md
-main.py
 pypi.md
 requirement.txt
 setup.py
@@ -13,3 +11,6 @@ JSJumble.egg-info/SOURCES.txt
 JSJumble.egg-info/dependency_links.txt
 JSJumble.egg-info/requires.txt
 JSJumble.egg-info/top_level.txt
+JSJumble/static/compress.js
+JSJumble/static/obfuscator.js
+JSJumble/template/obfuscator.html
