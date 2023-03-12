@@ -3,7 +3,7 @@
 
 # Installation
 ```
-pip install pygesture
+pip install JSJumble
 ```
 
 # Getting Started
