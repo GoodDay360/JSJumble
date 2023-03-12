@@ -42,14 +42,13 @@ JSJumble.port = 80
 JSJumble.js_only = False
 ```
 
-
 - **[ Optional ]** Should engine delete files inside converted directory that are not listed inside static directory. `Default: True`
 ```python
 JSJumble.delete_unlisted = True
 ```
 
 - **[ Optional ]** Engine options that required to start converting. `Default: Listed below`
-- You can find more additional options in this [Github Repo](https://github.com/javascript-obfuscator/javascript-obfuscator#javascript-obfuscator-options)
+- You can find more additional options in this [Github Repo](https://github.com/javascript-obfuscator/javascript-obfuscator#javascript-obfuscator-options){:target="\_blank"}
 ```python
 JSJumble.engine = {
     "compact": True,
@@ -79,4 +78,10 @@ JSJumble.engine = {
     "unicodeEscapeSequence": False
 }
 
+```
+
+- **[ Request ]** And lastly start the engine.
+- You can access the engine by open up browser and go to the IP and Port that you specified. `Default: 127.0.0.:80`
+```python
+JSJumble.start()
 ```
