@@ -80,7 +80,7 @@ JSJumble.engine = {
 
 ```
 
-- **[ Request ]** And lastly start the engine.
+- **[ Required ]** And lastly start the engine.
 - You can access the engine by open up browser and go to the IP and Port that you specified. `Default: 127.0.0.1:80`
 ```python
 JSJumble.start()
