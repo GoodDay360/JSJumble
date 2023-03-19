@@ -22,6 +22,12 @@ JSJumble.static_dir = "./static"
 JSJumble.converted_dir = "./converted"
 ```
 
+- **[ Required ]** And lastly start the engine.
+- You can access the engine by open up browser and go to the IP and Port that you specified. `Default: 127.0.0.1:80`
+```python
+JSJumble.start()
+```
+
 - **[ Optional ]** Specify where to save cache file. `Default: Current Working Directory`
 ```python
 JSJumble.cache_dir = "./cache.sql"
@@ -37,7 +43,7 @@ JSJumble.host = "127.0.0.1"
 JSJumble.port = 80
 ```
 
-- **[ Optional ]** Should engine copy only javascript files only or not. `Default: False`
+- **[ Optional ]** Should engine copy only javascript files or not. `Default: False`
 ```python
 JSJumble.js_only = False
 ```
@@ -80,8 +86,3 @@ JSJumble.engine = {
 
 ```
 
-- **[ Required ]** And lastly start the engine.
-- You can access the engine by open up browser and go to the IP and Port that you specified. `Default: 127.0.0.1:80`
-```python
-JSJumble.start()
-```
